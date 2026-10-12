@@ -243,6 +243,22 @@ button { font: inherit; color: inherit; }
 .play { position: absolute; z-index: 2; right: 16px; bottom: 16px; display: none; width: 52px; height: 52px; border-radius: 50%; place-items: center; background: #fffdf8; border: 2px solid #141311; color: #141311; pointer-events: none; }
 .play svg { width: 18px; height: 18px; margin-left: 3px; fill: currentColor; }
 html.calm .frame:not(.playing) .play { display: grid; }
+/* Scene strip: the loop's four scenes from the storyboard sheet. The lit tile follows the video
+   and its bar fills over the scene's 2.4 s; a click jumps the video to that scene. */
+.scenes { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 30px; }
+.sc { display: grid; gap: 8px; padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.sc-img { position: relative; display: block; aspect-ratio: 16 / 9; overflow: hidden; border: 2px solid var(--ink); border-radius: 12px; background: var(--mute); transition: translate .3s var(--ease), box-shadow .3s var(--ease); }
+.sc-img img { position: absolute; left: calc(var(--x) * -100%); top: calc(var(--y) * -100%); width: 200%; height: 200%; max-width: none; transition: opacity .5s ease; }
+.sc-img img:not(.ok) { opacity: 0; }
+.sc-img i { position: absolute; left: 0; bottom: 0; width: 100%; height: 5px; background: var(--accent); box-shadow: 0 -1.5px 0 var(--ink); transform-origin: left; scale: 0 1; }
+.sc:hover .sc-img { translate: -2px -2px; box-shadow: 3px 3px 0 var(--ink); }
+.sc.on .sc-img { translate: -2px -2px; box-shadow: 4px 4px 0 var(--accent); }
+.sc.on .sc-img i { animation: scfill 2.4s linear var(--d, 0s) both; }
+.ch-media:has(.frame:not(.playing)) .sc.on .sc-img i { animation-play-state: paused; }
+@keyframes scfill { to { scale: 1 1; } }
+.sc-cap { display: flex; align-items: baseline; gap: 7px; font-size: .78rem; line-height: 1.2; }
+.sc-n { flex: none; padding: 2px 6px; border: 1.5px solid var(--ink); border-radius: 999px; font: 600 .62rem/1.2 var(--mono); transition: background .3s, color .3s; }
+.sc.on .sc-n { background: var(--ink); color: var(--bg); }
 .ch-k { color: var(--mute); margin: 0; }
 .ch-title { font-size: clamp(2.4rem, 5vw, 5rem); margin: 18px 0 14px; white-space: normal; max-width: 100%; }
 .ch-title.c9 { font-size: clamp(1.7rem, 3.4vw, 3.3rem); }
@@ -356,6 +372,9 @@ html.has-cursor, html.has-cursor * { cursor: none !important; }
   .badge { width: 60px; height: 60px; font-size: 1.3rem; top: -16px; left: -6px; }
   .ch:nth-child(even) .badge { right: -6px; }
   .frame { box-shadow: 8px 8px 0 var(--accent); border-radius: 18px; }
+  .scenes { gap: 8px; margin-top: 22px; }
+  .sc-img { border-radius: 9px; }
+  .sc-t { display: none; }
   .recent li { flex-direction: column; gap: 4px; }
   .score-row { flex-wrap: wrap; }
 }
@@ -768,6 +787,12 @@ html.locked main *, html.locked main *::before, html.locked main *::after { anim
             <video muted loop playsinline preload="none" data-src="media/${p.slug}.mp4" aria-hidden="true"></video>
             <span class="play" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 2.5v11l9-5.5z"/></svg></span>
           </button>
+          <div class="scenes" role="group" aria-label="${esc(ui("scenes"))}">${ui("sceneNames").map((t, s) => `
+            <button type="button" class="sc" data-scene="${s}" style="--x:${s % 2};--y:${s >> 1}" aria-label="${esc(ui("scene"))} ${s + 1}: ${esc(t)}">
+              <span class="sc-img"><img src="media/${p.slug}-scenes.webp" alt="" width="960" height="540" loading="lazy" decoding="async"><i></i></span>
+              <span class="sc-cap"><span class="sc-n">${s + 1}</span><span class="sc-t">${esc(t)}</span></span>
+            </button>`).join("")}
+          </div>
         </div>
         <div class="ch-text" data-reveal>
           <p class="ch-k mono">${pad(i + 1)} / ${N} · ${esc(ui("concept"))}</p>
@@ -783,10 +808,36 @@ html.locked main *, html.locked main *::before, html.locked main *::after { anim
           <button type="button" class="btn ghost" data-view="${i}" data-magnetic><span>${esc(ui("play"))}</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 3v10l9-5z"/></svg></button>
         </div>
       </article>`).join("");
-    $$(".frame img", chapters).forEach(fadeIn);
+    $$(".frame img, .sc img", chapters).forEach(fadeIn);
+    $$(".ch", chapters).forEach(followScenes);
     bindMagnetic($$("[data-magnetic]", chapters));
     watchChapters();
   }
+
+  // Every loop is four scenes of 2.4 s. The strip lights the scene on screen and starts its bar
+  // part-way through, so the bar stays in step with the video.
+  const SCENE = 2.4;
+  function followScenes(ch) {
+    const v = $("video", ch), tiles = $$(".sc", ch);
+    const sync = restart => {
+      const t = v.currentTime, s = Math.min(3, Math.floor(t / SCENE)), tile = tiles[s];
+      if (tile.classList.contains("on") && !restart) return;
+      tiles.forEach(x => x.classList.remove("on"));
+      tile.style.setProperty("--d", `${-(t - s * SCENE).toFixed(2)}s`);
+      void tile.offsetWidth;
+      tile.classList.add("on");
+    };
+    v.addEventListener("timeupdate", () => sync(false));
+    v.addEventListener("seeked", () => sync(true));
+  }
+  chapters.addEventListener("click", e => {
+    const b = e.target.closest(".sc");
+    if (!b) return;
+    const f = $(".frame", b.closest(".ch")), v = $("video", f);
+    const go = () => { v.currentTime = +b.dataset.scene * SCENE + .04; };
+    playFrame(f, true);
+    if (v.readyState >= 1) go(); else v.addEventListener("loadedmetadata", go, { once: true });
+  });
 
   function fadeIn(img) {
     const show = () => img.classList.add("ok");
@@ -835,11 +886,15 @@ html.locked main *, html.locked main *::before, html.locked main *::after { anim
     lbv.poster = `media/${p.slug}.webp`;
     if (!lbv.src.endsWith(`${p.slug}.mp4`)) { lbv.src = `media/${p.slug}.mp4`; lbv.play().catch(() => {}); }
   }
+  // The open viewer sits in the browser's top layer, above everything else on the page,
+  // so the cursor and confetti layers move inside it while it is open, and back after.
+  const overlays = $$(".fx, .cur, .cur-tag");
   function openViewer(i) {
     cur = (i + N) % N;
     if (!lb.open) {
       lastFocus = document.activeElement;
       lb.showModal();
+      lb.append(...overlays);
       html.classList.add("locked");
       $$(".frame.playing", chapters).forEach(pauseFrame);
       dvid.pause();
@@ -847,6 +902,7 @@ html.locked main *, html.locked main *::before, html.locked main *::after { anim
     fillViewer();
   }
   lb.addEventListener("close", () => {
+    document.body.append(...overlays);
     html.classList.remove("locked");
     lbv.pause(); lbv.removeAttribute("src"); lbv.load();
     $$(".frame", chapters).forEach(f => { if (visible(f)) playFrame(f); });

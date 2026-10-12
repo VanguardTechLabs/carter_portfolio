@@ -13,9 +13,23 @@
       "Motion Graphics",
       "Images for social networks"
     ],
-    "motion": "Chrome lettering and twinkling stars",
+    "motion": "Chrome sweep, portrait push-in, expanding star graphics, and sliding campaign cards",
     "gif": "gifs/01-glossbyte.gif",
-    "cover": "covers/01-glossbyte.jpg"
+    "cover": "covers/01-glossbyte.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 2,
@@ -31,9 +45,23 @@
       "Adobe Illustrator",
       "Motion Graphics"
     ],
-    "motion": "Steam strokes and a turning flower",
+    "motion": "Horizontal scene slides, a close café crop, spinning floral graphics, and swinging risograph prints",
     "gif": "gifs/02-ciao-club.gif",
-    "cover": "covers/02-ciao-club.jpg"
+    "cover": "covers/02-ciao-club.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 3,
@@ -49,9 +77,23 @@
       "Animation",
       "Images for social networks"
     ],
-    "motion": "Bouncing peach sticker and flower",
+    "motion": "Circle reveals, a close character crop, bouncing oversized lettering, and springing pastel cards",
     "gif": "gifs/03-peach-pop.gif",
-    "cover": "covers/03-peach-pop.jpg"
+    "cover": "covers/03-peach-pop.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 4,
@@ -67,9 +109,23 @@
       "Photo Editing",
       "Motion Graphics"
     ],
-    "motion": "Moving accent bar and graphic ticks",
+    "motion": "Staggered shutters, a portrait punch-in, giant kinetic type, and sliding monochrome columns",
     "gif": "gifs/04-forma-raw.gif",
-    "cover": "covers/04-forma-raw.jpg"
+    "cover": "covers/04-forma-raw.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 5,
@@ -85,9 +141,23 @@
       "Motion Graphics",
       "Images for social networks"
     ],
-    "motion": "Breathing orb outlines and glints",
+    "motion": "Iris reveals, a slow portrait push-in, expanding orbital rings, and floating editorial cards",
     "gif": "gifs/05-dreamstate.gif",
-    "cover": "covers/05-dreamstate.jpg"
+    "cover": "covers/05-dreamstate.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 6,
@@ -103,9 +173,23 @@
       "Motion Graphics",
       "Images for social networks"
     ],
-    "motion": "Kinetic diagonal speed lines",
+    "motion": "Diagonal wipes, a moving athlete crop, fast chevrons, and staggered sports panels",
     "gif": "gifs/06-pulse-lab.gif",
-    "cover": "covers/06-pulse-lab.jpg"
+    "cover": "covers/06-pulse-lab.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 7,
@@ -121,9 +205,23 @@
       "Adobe Photoshop",
       "Animation"
     ],
-    "motion": "Drifting petals and flowing underline",
+    "motion": "Paint-like reveals, a watercolor portrait pan, drifting large petals, and moving keepsake prints",
     "gif": "gifs/07-fleur-paper.gif",
-    "cover": "covers/07-fleur-paper.jpg"
+    "cover": "covers/07-fleur-paper.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 8,
@@ -139,9 +237,23 @@
       "Motion Graphics",
       "Editing"
     ],
-    "motion": "Fine rain across a cinematic frame",
+    "motion": "Film-strip pushes, a cinematic close-up, moving film typography, and a scrolling contact strip",
     "gif": "gifs/08-afterhours.gif",
-    "cover": "covers/08-afterhours.jpg"
+    "cover": "covers/08-afterhours.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 9,
@@ -157,9 +269,23 @@
       "Adobe Illustrator",
       "Animation"
     ],
-    "motion": "Individually wobbling paper letters",
+    "motion": "Staggered paper wipes, a close character crop, bouncing cut-paper graphics, and rotating prints",
     "gif": "gifs/09-paperfolk.gif",
-    "cover": "covers/09-paperfolk.jpg"
+    "cover": "covers/09-paperfolk.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 10,
@@ -175,9 +301,23 @@
       "Motion Graphics",
       "Images for social networks"
     ],
-    "motion": "Equalizer bars and a lively badge",
+    "motion": "Radial comic reveals, a singer punch-in, a large turning starburst, and record-inspired portrait discs",
     "gif": "gifs/10-bang-radio.gif",
-    "cover": "covers/10-bang-radio.jpg"
+    "cover": "covers/10-bang-radio.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 11,
@@ -193,9 +333,23 @@
       "Adobe Photoshop",
       "Corporate Brand Identity"
     ],
-    "motion": "A quiet progress indicator",
+    "motion": "Curtain reveals, a portrait pan, expanding calm linework, and a sliding skincare interface",
     "gif": "gifs/11-still-form.gif",
-    "cover": "covers/11-still-form.jpg"
+    "cover": "covers/11-still-form.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 12,
@@ -211,9 +365,23 @@
       "Motion Graphics",
       "Images for social networks"
     ],
-    "motion": "Chrome shimmer and scrolling grid lines",
+    "motion": "Neon slice wipes, a fashion portrait push-in, moving perspective lines, and a sliding poster cover",
     "gif": "gifs/12-neon-mile.gif",
-    "cover": "covers/12-neon-mile.jpg"
+    "cover": "covers/12-neon-mile.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 13,
@@ -229,9 +397,23 @@
       "Animation",
       "Corporate Brand Identity"
     ],
-    "motion": "Soft badge bounce and drifting sprinkles",
+    "motion": "Expanding bubble reveals, a character push-in, bouncing sprinkles, and swinging gelato campaign cards",
     "gif": "gifs/13-scoopi.gif",
-    "cover": "covers/13-scoopi.jpg"
+    "cover": "covers/13-scoopi.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 14,
@@ -247,9 +429,23 @@
       "Editorial Design",
       "Animation"
     ],
-    "motion": "Subtle gilded glints and a tracing bead",
+    "motion": "Ornamental iris reveals, an illustrated portrait close-up, expanding gold arcs, and a moving print cover",
     "gif": "gifs/14-opaline.gif",
-    "cover": "covers/14-opaline.jpg"
+    "cover": "covers/14-opaline.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   },
   {
     "number": 15,
@@ -265,8 +461,22 @@
       "Editorial Design",
       "Images for social networks"
     ],
-    "motion": "Moving itinerary marker and sun-flower",
+    "motion": "Paper-strip transitions, a travel portrait pan, a moving itinerary, and rotating photo prints",
     "gif": "gifs/15-sol-days.gif",
-    "cover": "covers/15-sol-days.jpg"
+    "cover": "covers/15-sol-days.jpg",
+    "scenes": [
+      "Campaign cover with camera movement",
+      "Close-up portrait composition",
+      "Kinetic brand graphics",
+      "Campaign showcase"
+    ],
+    "gif_spec": {
+      "width": 960,
+      "height": 540,
+      "duration_seconds": 9.6,
+      "source_frames": 120,
+      "nominal_fps": 12.5,
+      "loop": "continuous"
+    }
   }
 ]

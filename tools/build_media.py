@@ -2,10 +2,12 @@
 
 Run from the project folder:  python tools/build_media.py
 Needs Pillow and imageio-ffmpeg (pip install pillow imageio-ffmpeg), which ships its own ffmpeg.
+The GIFs are not in the repository (about 230 MB); take them from the pack's gifs/ folder.
 
 source/covers/<slug>.jpg  ->  media/<slug>.webp      (1600 px wide, lightbox and chapters)
                               media/<slug>-sm.webp   (800 px wide, hero deck and index strip)
 source/gifs/<slug>.gif    ->  media/<slug>.mp4       (H.264 loop, a fraction of the GIF's size)
+source/storyboards/<slug>.jpg -> media/<slug>-scenes.webp (the four scenes as a 2 x 2 sheet, 960 px wide)
 all covers                ->  media/og.jpg           (1200 x 630 link preview)
                               lqip.js                (blurred previews painted while images load)
 """
@@ -45,11 +47,13 @@ def lqip(im, w=24):
 
 
 def mp4(gif, path):
-    # The GIFs run at 10 fps for 4.8 s; keep that timing. yuv420p + faststart so every browser,
+    # The GIFs run 9.6 s at 12.5 fps: four scenes of 2.4 s each, which the page's scene strip
+    # relies on. The encoder merged identical neighbouring frames, so resample to a steady
+    # 12.5 fps to keep every scene on its 2.4 s mark. yuv420p + faststart so every browser,
     # including iPhone Safari, can start playing before the whole file has arrived.
     subprocess.run([
         FFMPEG, "-y", "-loglevel", "error", "-i", str(gif),
-        "-vf", "scale=trunc(iw/2)*2:trunc(ih/2)*2,format=yuv420p",
+        "-vf", "fps=12.5,scale=trunc(iw/2)*2:trunc(ih/2)*2,format=yuv420p",
         "-c:v", "libx264", "-preset", "slow", "-crf", "24", "-movflags", "+faststart", "-an", str(path),
     ], check=True)
 
@@ -63,6 +67,8 @@ def main():
         webp(im, 1600, OUT / f"{slug}.webp", 80)
         webp(im, 800, OUT / f"{slug}-sm.webp", 78)
         mp4(SRC / "gifs" / f"{slug}.gif", OUT / f"{slug}.mp4")
+        sheet = Image.open(SRC / "storyboards" / f"{slug}.jpg").convert("RGB")
+        webp(sheet, 960, OUT / f"{slug}-scenes.webp", 74)
         previews[slug] = lqip(im)
         covers.append(im)
         print(slug, "ok")

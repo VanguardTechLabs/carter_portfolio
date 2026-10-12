@@ -1,6 +1,6 @@
 # Carter M. N. · Fifteen Worlds
 
-A one-page design portfolio for the Workana profile of Carter M. N. It shows the fifteen concept projects from `15-distinct-portfolio-projects.zip` in English, Spanish and Portuguese. There is no build step: open `index.html` in a browser.
+A one-page design portfolio for the Workana profile of Carter M. N. It shows the fifteen concept projects from the pack's motion revision, `15-distinct-portfolio-projects (2).zip`, in English, Spanish and Portuguese. There is no build step: open `index.html` in a browser.
 
 ## What's on the page
 
@@ -11,6 +11,9 @@ A one-page design portfolio for the Workana profile of Carter M. N. It shows the
 - **The fifteen:** one chapter per project.
   - While a project is in the middle of the screen, the whole page takes that project's colours.
   - Each chapter shows the project's animation, a title in that project's own lettering, a description, its style and motion notes, and related skills.
+  - Each animation is a 9.6-second loop of four 2.4-second scenes: cover, close-up, big type and showcase. A strip of four storyboard tiles sits under the video.
+    - The tile of the scene on screen lights up, and its bar fills as the scene plays.
+    - Clicking a tile jumps the video to that scene.
   - "Play" opens a full-screen viewer that you can step through.
 - **Toolbox:** the skills and years of experience from the Workana profile.
 - **Clients:** the 5.0 rating, Silver level, and the public Workana reviews, quoted word for word and translated where needed. It also lists recent Workana work.
@@ -32,8 +35,8 @@ A one-page design portfolio for the Workana profile of Carter M. N. It shows the
 | `index.html` | Layout, styles, the script and the English page text |
 | `content.js` | Projects (EN/ES/PT), project colours and lettering, skills, reviews, Spanish and Portuguese page text |
 | `lqip.js` | Blurred previews (generated) |
-| `media/` | `<slug>.mp4` loops (from the GIFs), `<slug>.webp` (1600 px), `<slug>-sm.webp` (800 px), `og.jpg` |
-| `source/` | The pack's covers, GIFs, `projects.json`, copy and README, plus the Workana profile and ratings pages saved on 11 Oct 2026. Not published. |
+| `media/` | `<slug>.mp4` loops (from the GIFs, 12.5 fps), `<slug>.webp` (1600 px), `<slug>-sm.webp` (800 px), `<slug>-scenes.webp` (the four-scene storyboard sheet, 960 px), `og.jpg` |
+| `source/` | The pack's covers, storyboards (renamed `<slug>.jpg`), `projects.json`, copy and README, plus the Workana profile and ratings pages saved on 11 Oct 2026. Not published. The GIFs (`source/gifs/`, about 230 MB) are kept out of git; copy them from the pack's `gifs/` folder before rebuilding. |
 | `tools/build_media.py` | Rebuilds `media/` and `lqip.js` from `source/` (needs `pip install pillow imageio-ffmpeg`) |
 
 ## Common edits
@@ -42,7 +45,8 @@ A one-page design portfolio for the Workana profile of Carter M. N. It shows the
 - **A project:** edit its entry in `content.js`.
   - `theme` holds the page colours while that project is on screen.
   - `look` names its lettering, `c1`–`c15` in `index.html`.
-- **New media:** put `<slug>.jpg` in `source/covers/` and `<slug>.gif` in `source/gifs/`, add the project to `source/projects.json` and `content.js`, then run `python tools/build_media.py`.
+- **New media:** put `<slug>.jpg` in `source/covers/`, `<slug>.gif` in `source/gifs/` and the storyboard sheet in `source/storyboards/<slug>.jpg`. Add the project to `source/projects.json` and `content.js`, then run `python tools/build_media.py`.
+  - The scene strip assumes four equal scenes in a 9.6-second loop (`SCENE = 2.4` in `index.html`). Change that if a new pack is timed differently.
 
 ## Publishing
 

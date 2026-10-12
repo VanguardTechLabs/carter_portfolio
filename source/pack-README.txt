@@ -1,28 +1,26 @@
-FIFTEEN DISTINCT PORTFOLIO CONCEPTS
+FIFTEEN PORTFOLIO CONCEPTS — MOTION REVISION
 
-CONTENTS
-- 15 individual animated GIF covers: 1120 × 630 px, 4.8 seconds, continuous looping.
-- 15 still JPG covers: 2240 × 1260 px.
-- An overview image showing all 15 directions.
-- portfolio-copy.txt: copy-ready title, one-sentence description, and five suggested skill tags per project.
-- project-guide.md and projects.json: the same project details in reusable formats.
-- production/: Python renderer, original image prompts, and source artwork.
+Each animated GIF now contains four clearly different scenes:
+1. Campaign cover with a camera push-in.
+2. A reframed close-up with a new headline and composition.
+3. Large kinetic brand typography and animated graphic motifs.
+4. A campaign showcase with moving cards, prints, portrait panels, or an interface.
 
-USE
-Use a project's GIF as its animated cover where your portfolio platform accepts GIF files.
-Use the matching JPG when a still cover is needed.
-Present these as self-initiated concept projects; no client commissions or measured business results are claimed.
+FORMAT
+15 GIFs: 960 × 540 pixels, 12.5 fps nominal, 9.6-second continuous loop.
+Identical adjacent frames are combined by the GIF encoder without changing timing.
+15 high-resolution still covers: 2240 × 1260 pixels.
+Motion contact sheets show the four main compositions for every project.
+The title, one-sentence description, and five suggested skill tags remain in portfolio-copy.txt.
 
-PRODUCTION NOTES
-The human subjects and illustrated characters were generated as fictional adults age 25 or older.
-Raster artwork was created with the built-in image-generation tool.
-Typography, layouts, decorative motion, GIF encoding, and packaging were produced programmatically with Pillow and NumPy.
-The five skills per project are suggested tags from the designer's supplied stack, not a claim that those Adobe applications were used to produce these files.
-These are animated campaign and portfolio cover concepts, not full client identity systems, live websites, or rigged 3D character animations.
-Brand names are creative placeholders and have not been trademark-cleared.
+PRODUCTION
+The artwork uses generated fictional adult people and illustrated characters.
+The revised motion is camera reframing and graphic animation, not full-body character animation.
+These are self-initiated concept projects, not client commissions.
+The five skills are suggested profile tags from the designer's supplied list, not production-software claims.
+The archive includes the source artwork, prompts, and Python renderers.
 
 REBUILD
-Python 3 with Pillow and NumPy is required. The renderer lists the Linux font paths it uses.
-From production/: python3 render_fifteen.py covers
-                 python3 render_fifteen.py gifs 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
-                 python3 render_fifteen.py verify
+Python 3, Pillow, NumPy, and the fonts listed in production/render_fifteen.py are required.
+From production/: python3 animate_scenes.py render 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+                 python3 animate_scenes.py verify

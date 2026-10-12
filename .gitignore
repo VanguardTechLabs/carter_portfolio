@@ -2,3 +2,6 @@ Thumbs.db
 desktop.ini
 .DS_Store
 __pycache__/
+
+# The pack GIFs are about 230 MB; the site uses the MP4s in media/. Copy them from the pack to rebuild.
+source/gifs/

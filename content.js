@@ -18,7 +18,7 @@ window.SITE = {
         es: "Un concepto de belleza en cromo y lavanda que combina un retrato luminoso con tipografía brillante y una animación juguetona de destellos.",
         pt: "Um conceito de beleza em cromo e lavanda que une um retrato luminoso a uma tipografia brilhante e uma animação divertida de brilhos.",
       },
-      motion: { en: "Chrome lettering and twinkling stars", es: "Letras cromadas y estrellas que titilan", pt: "Letras cromadas e estrelas cintilantes" },
+      motion: { en: "Chrome sweep, portrait push-in, expanding star graphics, and sliding campaign cards", es: "Barrido cromado, acercamiento al retrato, estrellas que se expanden y tarjetas de campaña que se deslizan", pt: "Varredura cromada, aproximação no retrato, estrelas que se expandem e cards de campanha deslizantes" },
     },
     {
       slug: "02-ciao-club", name: "CIAO CLUB", look: "c2",
@@ -31,7 +31,7 @@ window.SITE = {
         es: "Una identidad alegre para una cafetería que combina ilustración en risografía a dos tintas, lettering expresivo y vapor de café animado.",
         pt: "Uma identidade alegre para uma cafeteria, com ilustração em risografia a duas cores, lettering expressivo e vapor de café animado.",
       },
-      motion: { en: "Steam strokes and a turning flower", es: "Trazos de vapor y una flor que gira", pt: "Traços de vapor e uma flor que gira" },
+      motion: { en: "Horizontal scene slides, a close café crop, spinning floral graphics, and swinging risograph prints", es: "Escenas que se deslizan en horizontal, un encuadre cercano del café, flores gráficas que giran e impresiones risográficas que se balancean", pt: "Cenas que deslizam na horizontal, um enquadramento próximo do café, flores gráficas girando e impressões em risografia balançando" },
     },
     {
       slug: "03-peach-pop", name: "PEACH POP", look: "c3",
@@ -44,7 +44,7 @@ window.SITE = {
         es: "Un concepto lifestyle dulce con un personaje encantador de estilo 3D, lettering color durazno y detalles de mascota que rebotan.",
         pt: "Um conceito lifestyle doce com uma personagem encantadora em estilo 3D, lettering cor de pêssego e detalhes de mascote que quicam.",
       },
-      motion: { en: "Bouncing peach sticker and flower", es: "Sticker de durazno y flor que rebotan", pt: "Adesivo de pêssego e flor que quicam" },
+      motion: { en: "Circle reveals, a close character crop, bouncing oversized lettering, and springing pastel cards", es: "Revelados circulares, un primer plano del personaje, letras gigantes que rebotan y tarjetas pastel con efecto resorte", pt: "Revelações em círculo, um close da personagem, letras gigantes quicando e cards pastel com efeito de mola" },
     },
     {
       slug: "04-forma-raw", name: "FORMA RAW", look: "c4",
@@ -57,7 +57,7 @@ window.SITE = {
         es: "Un concepto audaz de moda masculina construido con retrato monocromo, tipografía condensada y un acento bermellón afilado.",
         pt: "Um conceito ousado de moda masculina construído com retrato monocromático, tipografia condensada e um acento vermelhão marcante.",
       },
-      motion: { en: "Moving accent bar and graphic ticks", es: "Barra de acento en movimiento y marcas gráficas", pt: "Barra de destaque em movimento e marcas gráficas" },
+      motion: { en: "Staggered shutters, a portrait punch-in, giant kinetic type, and sliding monochrome columns", es: "Persianas escalonadas, un zoom rápido al retrato, tipografía cinética gigante y columnas monocromas que se deslizan", pt: "Persianas escalonadas, um zoom rápido no retrato, tipografia cinética gigante e colunas monocromáticas deslizantes" },
     },
     {
       slug: "05-dreamstate", name: "DREAMSTATE", look: "c5",
@@ -70,7 +70,7 @@ window.SITE = {
         es: "Una campaña de belleza etérea que sitúa un retrato radiante dentro de un paisaje onírico iridiscente con orbes que laten suavemente.",
         pt: "Uma campanha de beleza etérea que coloca um retrato radiante dentro de uma paisagem onírica iridescente, com orbes que pulsam suavemente.",
       },
-      motion: { en: "Breathing orb outlines and glints", es: "Contornos de orbes que respiran y destellos", pt: "Contornos de orbes que respiram e reflexos" },
+      motion: { en: "Iris reveals, a slow portrait push-in, expanding orbital rings, and floating editorial cards", es: "Revelados en iris, un acercamiento lento al retrato, anillos orbitales que se expanden y tarjetas editoriales flotantes", pt: "Revelações em íris, uma aproximação lenta no retrato, anéis orbitais que se expandem e cards editoriais flutuantes" },
     },
     {
       slug: "06-pulse-lab", name: "PULSE LAB", look: "c6",
@@ -83,7 +83,7 @@ window.SITE = {
         es: "Una campaña deportiva llena de energía que combina retratos atléticos, tipografía verde lima eléctrico y líneas de velocidad animadas.",
         pt: "Uma campanha esportiva cheia de energia que combina retratos atléticos, tipografia verde-limão elétrico e linhas de velocidade animadas.",
       },
-      motion: { en: "Kinetic diagonal speed lines", es: "Líneas diagonales de velocidad", pt: "Linhas diagonais de velocidade" },
+      motion: { en: "Diagonal wipes, a moving athlete crop, fast chevrons, and staggered sports panels", es: "Cortinillas diagonales, un encuadre del atleta en movimiento, chevrones veloces y paneles deportivos escalonados", pt: "Transições diagonais, um enquadramento do atleta em movimento, chevrons velozes e painéis esportivos escalonados" },
     },
     {
       slug: "07-fleur-paper", name: "FLEUR PAPER", look: "c7",
@@ -96,7 +96,7 @@ window.SITE = {
         es: "Un delicado concepto de retrato que mezcla flores sueltas en acuarela, lettering caligráfico y pétalos que flotan suavemente.",
         pt: "Um conceito delicado de retrato que mistura flores soltas em aquarela, lettering caligráfico e pétalas que flutuam suavemente.",
       },
-      motion: { en: "Drifting petals and flowing underline", es: "Pétalos a la deriva y un subrayado que fluye", pt: "Pétalas flutuando e um sublinhado que flui" },
+      motion: { en: "Paint-like reveals, a watercolor portrait pan, drifting large petals, and moving keepsake prints", es: "Revelados como pinceladas, un paneo por el retrato en acuarela, grandes pétalos a la deriva e impresiones de recuerdo en movimiento", pt: "Revelações como pinceladas, uma panorâmica pelo retrato em aquarela, grandes pétalas flutuando e impressões de lembrança em movimento" },
     },
     {
       slug: "08-afterhours", name: "AFTERHOURS", look: "c8",
@@ -109,7 +109,7 @@ window.SITE = {
         es: "Una serie de retratos con atmósfera de cine negro: fotografía monocroma dramática, tipografía elegante de película y lluvia que cae.",
         pt: "Uma série de retratos com clima de film noir: fotografia monocromática dramática, tipografia elegante de cinema e chuva caindo.",
       },
-      motion: { en: "Fine rain across a cinematic frame", es: "Lluvia fina sobre un encuadre de cine", pt: "Chuva fina sobre um quadro de cinema" },
+      motion: { en: "Film-strip pushes, a cinematic close-up, moving film typography, and a scrolling contact strip", es: "Avances en tira de película, un primer plano cinematográfico, tipografía de cine en movimiento y una hoja de contactos que se desplaza", pt: "Avanços em tira de filme, um close cinematográfico, tipografia de cinema em movimento e uma folha de contato que rola" },
     },
     {
       slug: "09-paperfolk", name: "PAPERFOLK", look: "c9",
@@ -122,7 +122,7 @@ window.SITE = {
         es: "Una identidad cálida para un estudio creativo, hecha con personajes de papel en capas, letras recortadas de colores y movimiento artesanal.",
         pt: "Uma identidade acolhedora para um estúdio criativo, feita com personagens de papel em camadas, letras recortadas coloridas e movimento artesanal.",
       },
-      motion: { en: "Individually wobbling paper letters", es: "Letras de papel que tiemblan una a una", pt: "Letras de papel que balançam uma a uma" },
+      motion: { en: "Staggered paper wipes, a close character crop, bouncing cut-paper graphics, and rotating prints", es: "Cortinillas de papel escalonadas, un primer plano de uno de los personajes, gráficos de papel recortado que rebotan e impresiones que giran", pt: "Transições de papel escalonadas, um close de um dos personagens, gráficos de papel recortado quicando e impressões girando" },
     },
     {
       slug: "10-bang-radio", name: "BANG RADIO", look: "c10",
@@ -135,7 +135,7 @@ window.SITE = {
         es: "Un concepto musical vibrante que mezcla ilustración en semitonos, rotulación de cómic y la energía animada de una radio al aire.",
         pt: "Um conceito musical vibrante que mistura ilustração em retícula, letreiros de quadrinhos e a energia animada de uma rádio no ar.",
       },
-      motion: { en: "Equalizer bars and a lively badge", es: "Barras de ecualizador y un sello animado", pt: "Barras de equalizador e um selo animado" },
+      motion: { en: "Radial comic reveals, a singer punch-in, a large turning starburst, and record-inspired portrait discs", es: "Revelados radiales de cómic, un zoom rápido a quien canta, una gran explosión estelar que gira y retratos en discos inspirados en vinilos", pt: "Revelações radiais de quadrinhos, um zoom rápido em quem canta, uma grande explosão estelar girando e retratos em discos inspirados em vinil" },
     },
     {
       slug: "11-still-form", name: "STILL FORM", look: "c11",
@@ -148,7 +148,7 @@ window.SITE = {
         es: "Un concepto de interfaz para skincare que combina retrato natural, tonos salvia y un ritmo de navegación sereno.",
         pt: "Um conceito de interface para skincare que une retrato natural, tons de sálvia e um ritmo de navegação sereno.",
       },
-      motion: { en: "A quiet progress indicator", es: "Un indicador de progreso discreto", pt: "Um indicador de progresso discreto" },
+      motion: { en: "Curtain reveals, a portrait pan, expanding calm linework, and a sliding skincare interface", es: "Revelados de telón, un paneo por el retrato, trazos serenos que se expanden y una interfaz de skincare que se desliza", pt: "Revelações de cortina, uma panorâmica pelo retrato, traços serenos que se expandem e uma interface de skincare deslizante" },
     },
     {
       slug: "12-neon-mile", name: "NEON MILE", look: "c12",
@@ -161,7 +161,7 @@ window.SITE = {
         es: "Un póster de moda retrofuturista que combina un retrato masculino aerografiado, lettering cromado de atardecer y una cuadrícula brillante de carretera nocturna.",
         pt: "Um pôster de moda retrofuturista que combina um retrato masculino aerografado, lettering cromado de pôr do sol e uma grade luminosa de estrada à noite.",
       },
-      motion: { en: "Chrome shimmer and scrolling grid lines", es: "Brillo cromado y líneas de cuadrícula en movimiento", pt: "Brilho cromado e linhas de grade em movimento" },
+      motion: { en: "Neon slice wipes, a fashion portrait push-in, moving perspective lines, and a sliding poster cover", es: "Cortinillas de neón en franjas, un acercamiento al retrato de moda, líneas de perspectiva en movimiento y una portada de póster que se desliza", pt: "Transições em faixas de neon, uma aproximação no retrato de moda, linhas de perspectiva em movimento e uma capa de pôster deslizante" },
     },
     {
       slug: "13-scoopi", name: "SCOOPI", look: "c13",
@@ -174,7 +174,7 @@ window.SITE = {
         es: "Un concepto alegre para una gelatería con personajes expresivos estilo plastilina, letras gruesas y detalles que rebotan.",
         pt: "Um conceito alegre para uma gelateria, com personagens expressivos em estilo massinha, letras robustas e detalhes que quicam.",
       },
-      motion: { en: "Soft badge bounce and drifting sprinkles", es: "Un sello que rebota y chispas que flotan", pt: "Selo que quica e confeitos flutuando" },
+      motion: { en: "Expanding bubble reveals, a character push-in, bouncing sprinkles, and swinging gelato campaign cards", es: "Revelados con burbujas que crecen, un acercamiento a uno de los personajes, chispas de colores que rebotan y tarjetas de campaña de gelato que se balancean", pt: "Revelações com bolhas que crescem, uma aproximação em um dos personagens, confeitos quicando e cards de campanha de gelato balançando" },
     },
     {
       slug: "14-opaline", name: "OPALINE", look: "c14",
@@ -187,7 +187,7 @@ window.SITE = {
         es: "Un concepto de joyería ornamental que enmarca a una musa ilustrada entre lirios, motivos de pavo real y delicados destellos dorados.",
         pt: "Um conceito ornamental de joalheria que emoldura uma musa ilustrada entre íris, motivos de pavão e delicados reflexos dourados.",
       },
-      motion: { en: "Subtle gilded glints and a tracing bead", es: "Destellos dorados sutiles y una perla que recorre el marco", pt: "Reflexos dourados sutis e uma pérola que percorre a moldura" },
+      motion: { en: "Ornamental iris reveals, an illustrated portrait close-up, expanding gold arcs, and a moving print cover", es: "Revelados en iris ornamentales, un primer plano del retrato ilustrado, arcos dorados que se expanden y una portada impresa en movimiento", pt: "Revelações em íris ornamentais, um close do retrato ilustrado, arcos dourados que se expandem e uma capa impressa em movimento" },
     },
     {
       slug: "15-sol-days", name: "SOL DAYS", look: "c15",
@@ -200,7 +200,7 @@ window.SITE = {
         es: "Una historia de viaje soleada que combina retratos espontáneos, fotos pegadas con cinta, notas a mano y un marcador de itinerario que recorre la página.",
         pt: "Uma história de viagem ensolarada com retratos espontâneos, fotos coladas com fita, anotações à mão e um marcador de roteiro que percorre a página.",
       },
-      motion: { en: "Moving itinerary marker and sun-flower", es: "Marcador de itinerario en movimiento y un girasol", pt: "Marcador de roteiro em movimento e um girassol" },
+      motion: { en: "Paper-strip transitions, a travel portrait pan, a moving itinerary, and rotating photo prints", es: "Transiciones en tiras de papel, un paneo por el retrato de viaje, un itinerario en movimiento y fotos impresas que giran", pt: "Transições em tiras de papel, uma panorâmica pelo retrato de viagem, um roteiro em movimento e fotos impressas girando" },
     },
   ],
 
@@ -275,18 +275,21 @@ window.SITE = {
       open: "Open", play: "Play", view: "View", drag: "Drag", close: "Close", prev: "Previous", next: "Next",
       now: "On top", yrs: "yrs", tr: "Translated from", langName: { es: "Spanish", pt: "Portuguese" },
       ongoing: "ongoing", fx: "Motion effects", on: "On", off: "Off", jump: "Jump to project",
+      scenes: "Four scenes", scene: "Scene", sceneNames: ["Cover", "Close-up", "Big type", "Showcase"],
     },
     es: {
       world: "mundo.", concept: "Estudio de concepto", style: "Estilo", motion: "Movimiento", related: "Habilidades relacionadas",
       open: "Abrir", play: "Ver", view: "Ver", drag: "Arrastra", close: "Cerrar", prev: "Anterior", next: "Siguiente",
       now: "Arriba", yrs: "años", tr: "Traducido del", langName: { es: "español", pt: "portugués" },
       ongoing: "en curso", fx: "Efectos de movimiento", on: "Activados", off: "Desactivados", jump: "Ir al proyecto",
+      scenes: "Cuatro escenas", scene: "Escena", sceneNames: ["Portada", "Primer plano", "Tipografía", "Vitrina"],
     },
     pt: {
       world: "mundo.", concept: "Estudo de conceito", style: "Estilo", motion: "Movimento", related: "Habilidades relacionadas",
       open: "Abrir", play: "Ver", view: "Ver", drag: "Arraste", close: "Fechar", prev: "Anterior", next: "Próximo",
       now: "No topo", yrs: "anos", tr: "Traduzido do", langName: { es: "espanhol", pt: "português" },
       ongoing: "em andamento", fx: "Efeitos de movimento", on: "Ligados", off: "Desligados", jump: "Ir para o projeto",
+      scenes: "Quatro cenas", scene: "Cena", sceneNames: ["Capa", "Close", "Tipografia", "Vitrine"],
     },
   },
 
