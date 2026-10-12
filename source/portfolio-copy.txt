@@ -1,0 +1,108 @@
+15 DISTINCT PORTFOLIO CONCEPTS
+Self-initiated concept projects. All names and people are fictional.
+Each set of five skills is a suggested profile tag selection from your supplied list.
+
+01. GLOSSBYTE — Y2K Beauty Campaign
+Style: Y2K chrome beauty
+A chrome-and-lavender beauty concept pairing a luminous portrait with glossy typography and playful sparkle animation.
+5 skills: Graphic Design, Adobe Photoshop, Photo Editing, Motion Graphics, Images for social networks
+GIF: gifs/01-glossbyte.gif
+Still cover: covers/01-glossbyte.jpg
+
+02. CIAO CLUB — Retro Café Identity
+Style: Retro risograph café
+A cheerful café identity combining two-color risograph illustration, expressive lettering, and animated coffee steam.
+5 skills: Corporate Brand Identity, Logo design, Illustration, Adobe Illustrator, Motion Graphics
+GIF: gifs/02-ciao-club.gif
+Still cover: covers/02-ciao-club.jpg
+
+03. PEACH POP — Cute 3D Lifestyle Campaign
+Style: Kawaii soft 3D lifestyle
+A sweet lifestyle concept featuring a charming 3D-style character, peach-colored lettering, and bouncing mascot details.
+5 skills: Illustration, Graphic Design, Adobe Photoshop, Animation, Images for social networks
+GIF: gifs/03-peach-pop.gif
+Still cover: covers/03-peach-pop.jpg
+
+04. FORMA RAW — Brutalist Menswear Editorial
+Style: Swiss brutalist menswear
+A bold menswear concept built around monochrome portraiture, condensed typography, and a sharp vermilion accent.
+5 skills: Editorial Design, Adobe InDesign, Graphic Design, Photo Editing, Motion Graphics
+GIF: gifs/04-forma-raw.gif
+Still cover: covers/04-forma-raw.jpg
+
+05. DREAMSTATE — Surreal Beauty Story
+Style: Surreal prismatic beauty
+An ethereal beauty campaign that places a radiant portrait inside an iridescent dreamscape with gently pulsing orbs.
+5 skills: Graphic Design, Adobe Photoshop, Photo Editing, Motion Graphics, Images for social networks
+GIF: gifs/05-dreamstate.gif
+Still cover: covers/05-dreamstate.jpg
+
+06. PULSE LAB — Urban Sports Campaign
+Style: Electric urban sports
+An energetic sports campaign combining athletic portraits, electric-lime typography, and animated speed lines.
+5 skills: Graphic Design, Adobe Photoshop, Photo Editing, Motion Graphics, Images for social networks
+GIF: gifs/06-pulse-lab.gif
+Still cover: covers/06-pulse-lab.jpg
+
+07. FLEUR PAPER — Watercolor Portrait Studio
+Style: Airy watercolor portrait
+A delicate portrait concept blending loose watercolor florals, calligraphic lettering, and softly drifting petals.
+5 skills: Illustration, Adobe Illustrator, Graphic Design, Adobe Photoshop, Animation
+GIF: gifs/07-fleur-paper.gif
+Still cover: covers/07-fleur-paper.jpg
+
+08. AFTERHOURS — Cinematic Portrait Series
+Style: Cinematic film noir
+A moody film-noir portrait series with dramatic monochrome photography, elegant film typography, and falling rain.
+5 skills: Photo Editing, Adobe Photoshop, Editorial Design, Motion Graphics, Editing
+GIF: gifs/08-afterhours.gif
+Still cover: covers/08-afterhours.jpg
+
+09. PAPERFOLK — Tactile Creative Studio
+Style: Layered paper-cut characters
+A welcoming creative-studio identity built from layered paper characters, colorful cutout lettering, and handmade motion.
+5 skills: Illustration, Corporate Brand Identity, Logo design, Adobe Illustrator, Animation
+GIF: gifs/09-paperfolk.gif
+Still cover: covers/09-paperfolk.jpg
+
+10. BANG RADIO — Pop-Art Music Campaign
+Style: Halftone pop-art music
+A vibrant music concept mixing halftone illustration, comic-book lettering, and animated on-air energy.
+5 skills: Graphic Design, Illustration, Adobe Illustrator, Motion Graphics, Images for social networks
+GIF: gifs/10-bang-radio.gif
+Still cover: covers/10-bang-radio.jpg
+
+11. STILL FORM — Japandi Skincare Interface
+Style: Japandi beauty minimalism
+A serene skincare interface concept pairing natural portraiture, sage tones, and a calm browsing rhythm.
+5 skills: User Interface, User Experience Design, Graphic Design, Adobe Photoshop, Corporate Brand Identity
+GIF: gifs/11-still-form.gif
+Still cover: covers/11-still-form.jpg
+
+12. NEON MILE — Synthwave Fashion Poster
+Style: Eighties synthwave poster
+A retro-futurist fashion poster combining an airbrushed male portrait, sunset chrome lettering, and a glowing night-drive grid.
+5 skills: Graphic Design, Illustration, Adobe Photoshop, Motion Graphics, Images for social networks
+GIF: gifs/12-neon-mile.gif
+Still cover: covers/12-neon-mile.jpg
+
+13. SCOOPI — Clay-Style Gelato Campaign
+Style: Handmade clay dessert world
+A joyful gelato concept with expressive clay-style characters, chunky lettering, and playful bouncing details.
+5 skills: Illustration, Graphic Design, Adobe Photoshop, Animation, Corporate Brand Identity
+GIF: gifs/13-scoopi.gif
+Still cover: covers/13-scoopi.jpg
+
+14. OPALINE — Art Nouveau Jewelry Story
+Style: Art Nouveau stained glass
+An ornate jewelry concept framing a graceful illustrated muse in iris blooms, peacock motifs, and delicate golden glints.
+5 skills: Illustration, Adobe Illustrator, Graphic Design, Editorial Design, Animation
+GIF: gifs/14-opaline.gif
+Still cover: covers/14-opaline.jpg
+
+15. SOL DAYS — Travel Scrapbook Campaign
+Style: Sunny travel scrapbook
+A sunny travel story combining candid portraits, taped photo prints, handwritten notes, and a wandering itinerary marker.
+5 skills: Graphic Design, Photo Editing, Adobe Photoshop, Editorial Design, Images for social networks
+GIF: gifs/15-sol-days.gif
+Still cover: covers/15-sol-days.jpg

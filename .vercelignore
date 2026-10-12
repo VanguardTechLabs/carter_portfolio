@@ -1,0 +1,6 @@
+# Vercel publishes only the site itself: index.html, content.js, lqip.js and media/.
+source
+tools
+README.md
+.gitattributes
+.gitignore

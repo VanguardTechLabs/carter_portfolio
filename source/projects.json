@@ -1,0 +1,272 @@
+[
+  {
+    "number": 1,
+    "slug": "01-glossbyte",
+    "name": "GLOSSBYTE",
+    "style": "Y2K chrome beauty",
+    "title": "GLOSSBYTE — Y2K Beauty Campaign",
+    "description": "A chrome-and-lavender beauty concept pairing a luminous portrait with glossy typography and playful sparkle animation.",
+    "skills": [
+      "Graphic Design",
+      "Adobe Photoshop",
+      "Photo Editing",
+      "Motion Graphics",
+      "Images for social networks"
+    ],
+    "motion": "Chrome lettering and twinkling stars",
+    "gif": "gifs/01-glossbyte.gif",
+    "cover": "covers/01-glossbyte.jpg"
+  },
+  {
+    "number": 2,
+    "slug": "02-ciao-club",
+    "name": "CIAO CLUB",
+    "style": "Retro risograph café",
+    "title": "CIAO CLUB — Retro Café Identity",
+    "description": "A cheerful café identity combining two-color risograph illustration, expressive lettering, and animated coffee steam.",
+    "skills": [
+      "Corporate Brand Identity",
+      "Logo design",
+      "Illustration",
+      "Adobe Illustrator",
+      "Motion Graphics"
+    ],
+    "motion": "Steam strokes and a turning flower",
+    "gif": "gifs/02-ciao-club.gif",
+    "cover": "covers/02-ciao-club.jpg"
+  },
+  {
+    "number": 3,
+    "slug": "03-peach-pop",
+    "name": "PEACH POP",
+    "style": "Kawaii soft 3D lifestyle",
+    "title": "PEACH POP — Cute 3D Lifestyle Campaign",
+    "description": "A sweet lifestyle concept featuring a charming 3D-style character, peach-colored lettering, and bouncing mascot details.",
+    "skills": [
+      "Illustration",
+      "Graphic Design",
+      "Adobe Photoshop",
+      "Animation",
+      "Images for social networks"
+    ],
+    "motion": "Bouncing peach sticker and flower",
+    "gif": "gifs/03-peach-pop.gif",
+    "cover": "covers/03-peach-pop.jpg"
+  },
+  {
+    "number": 4,
+    "slug": "04-forma-raw",
+    "name": "FORMA RAW",
+    "style": "Swiss brutalist menswear",
+    "title": "FORMA RAW — Brutalist Menswear Editorial",
+    "description": "A bold menswear concept built around monochrome portraiture, condensed typography, and a sharp vermilion accent.",
+    "skills": [
+      "Editorial Design",
+      "Adobe InDesign",
+      "Graphic Design",
+      "Photo Editing",
+      "Motion Graphics"
+    ],
+    "motion": "Moving accent bar and graphic ticks",
+    "gif": "gifs/04-forma-raw.gif",
+    "cover": "covers/04-forma-raw.jpg"
+  },
+  {
+    "number": 5,
+    "slug": "05-dreamstate",
+    "name": "DREAMSTATE",
+    "style": "Surreal prismatic beauty",
+    "title": "DREAMSTATE — Surreal Beauty Story",
+    "description": "An ethereal beauty campaign that places a radiant portrait inside an iridescent dreamscape with gently pulsing orbs.",
+    "skills": [
+      "Graphic Design",
+      "Adobe Photoshop",
+      "Photo Editing",
+      "Motion Graphics",
+      "Images for social networks"
+    ],
+    "motion": "Breathing orb outlines and glints",
+    "gif": "gifs/05-dreamstate.gif",
+    "cover": "covers/05-dreamstate.jpg"
+  },
+  {
+    "number": 6,
+    "slug": "06-pulse-lab",
+    "name": "PULSE LAB",
+    "style": "Electric urban sports",
+    "title": "PULSE LAB — Urban Sports Campaign",
+    "description": "An energetic sports campaign combining athletic portraits, electric-lime typography, and animated speed lines.",
+    "skills": [
+      "Graphic Design",
+      "Adobe Photoshop",
+      "Photo Editing",
+      "Motion Graphics",
+      "Images for social networks"
+    ],
+    "motion": "Kinetic diagonal speed lines",
+    "gif": "gifs/06-pulse-lab.gif",
+    "cover": "covers/06-pulse-lab.jpg"
+  },
+  {
+    "number": 7,
+    "slug": "07-fleur-paper",
+    "name": "FLEUR PAPER",
+    "style": "Airy watercolor portrait",
+    "title": "FLEUR PAPER — Watercolor Portrait Studio",
+    "description": "A delicate portrait concept blending loose watercolor florals, calligraphic lettering, and softly drifting petals.",
+    "skills": [
+      "Illustration",
+      "Adobe Illustrator",
+      "Graphic Design",
+      "Adobe Photoshop",
+      "Animation"
+    ],
+    "motion": "Drifting petals and flowing underline",
+    "gif": "gifs/07-fleur-paper.gif",
+    "cover": "covers/07-fleur-paper.jpg"
+  },
+  {
+    "number": 8,
+    "slug": "08-afterhours",
+    "name": "AFTERHOURS",
+    "style": "Cinematic film noir",
+    "title": "AFTERHOURS — Cinematic Portrait Series",
+    "description": "A moody film-noir portrait series with dramatic monochrome photography, elegant film typography, and falling rain.",
+    "skills": [
+      "Photo Editing",
+      "Adobe Photoshop",
+      "Editorial Design",
+      "Motion Graphics",
+      "Editing"
+    ],
+    "motion": "Fine rain across a cinematic frame",
+    "gif": "gifs/08-afterhours.gif",
+    "cover": "covers/08-afterhours.jpg"
+  },
+  {
+    "number": 9,
+    "slug": "09-paperfolk",
+    "name": "PAPERFOLK",
+    "style": "Layered paper-cut characters",
+    "title": "PAPERFOLK — Tactile Creative Studio",
+    "description": "A welcoming creative-studio identity built from layered paper characters, colorful cutout lettering, and handmade motion.",
+    "skills": [
+      "Illustration",
+      "Corporate Brand Identity",
+      "Logo design",
+      "Adobe Illustrator",
+      "Animation"
+    ],
+    "motion": "Individually wobbling paper letters",
+    "gif": "gifs/09-paperfolk.gif",
+    "cover": "covers/09-paperfolk.jpg"
+  },
+  {
+    "number": 10,
+    "slug": "10-bang-radio",
+    "name": "BANG RADIO",
+    "style": "Halftone pop-art music",
+    "title": "BANG RADIO — Pop-Art Music Campaign",
+    "description": "A vibrant music concept mixing halftone illustration, comic-book lettering, and animated on-air energy.",
+    "skills": [
+      "Graphic Design",
+      "Illustration",
+      "Adobe Illustrator",
+      "Motion Graphics",
+      "Images for social networks"
+    ],
+    "motion": "Equalizer bars and a lively badge",
+    "gif": "gifs/10-bang-radio.gif",
+    "cover": "covers/10-bang-radio.jpg"
+  },
+  {
+    "number": 11,
+    "slug": "11-still-form",
+    "name": "STILL FORM",
+    "style": "Japandi beauty minimalism",
+    "title": "STILL FORM — Japandi Skincare Interface",
+    "description": "A serene skincare interface concept pairing natural portraiture, sage tones, and a calm browsing rhythm.",
+    "skills": [
+      "User Interface",
+      "User Experience Design",
+      "Graphic Design",
+      "Adobe Photoshop",
+      "Corporate Brand Identity"
+    ],
+    "motion": "A quiet progress indicator",
+    "gif": "gifs/11-still-form.gif",
+    "cover": "covers/11-still-form.jpg"
+  },
+  {
+    "number": 12,
+    "slug": "12-neon-mile",
+    "name": "NEON MILE",
+    "style": "Eighties synthwave poster",
+    "title": "NEON MILE — Synthwave Fashion Poster",
+    "description": "A retro-futurist fashion poster combining an airbrushed male portrait, sunset chrome lettering, and a glowing night-drive grid.",
+    "skills": [
+      "Graphic Design",
+      "Illustration",
+      "Adobe Photoshop",
+      "Motion Graphics",
+      "Images for social networks"
+    ],
+    "motion": "Chrome shimmer and scrolling grid lines",
+    "gif": "gifs/12-neon-mile.gif",
+    "cover": "covers/12-neon-mile.jpg"
+  },
+  {
+    "number": 13,
+    "slug": "13-scoopi",
+    "name": "SCOOPI",
+    "style": "Handmade clay dessert world",
+    "title": "SCOOPI — Clay-Style Gelato Campaign",
+    "description": "A joyful gelato concept with expressive clay-style characters, chunky lettering, and playful bouncing details.",
+    "skills": [
+      "Illustration",
+      "Graphic Design",
+      "Adobe Photoshop",
+      "Animation",
+      "Corporate Brand Identity"
+    ],
+    "motion": "Soft badge bounce and drifting sprinkles",
+    "gif": "gifs/13-scoopi.gif",
+    "cover": "covers/13-scoopi.jpg"
+  },
+  {
+    "number": 14,
+    "slug": "14-opaline",
+    "name": "OPALINE",
+    "style": "Art Nouveau stained glass",
+    "title": "OPALINE — Art Nouveau Jewelry Story",
+    "description": "An ornate jewelry concept framing a graceful illustrated muse in iris blooms, peacock motifs, and delicate golden glints.",
+    "skills": [
+      "Illustration",
+      "Adobe Illustrator",
+      "Graphic Design",
+      "Editorial Design",
+      "Animation"
+    ],
+    "motion": "Subtle gilded glints and a tracing bead",
+    "gif": "gifs/14-opaline.gif",
+    "cover": "covers/14-opaline.jpg"
+  },
+  {
+    "number": 15,
+    "slug": "15-sol-days",
+    "name": "SOL DAYS",
+    "style": "Sunny travel scrapbook",
+    "title": "SOL DAYS — Travel Scrapbook Campaign",
+    "description": "A sunny travel story combining candid portraits, taped photo prints, handwritten notes, and a wandering itinerary marker.",
+    "skills": [
+      "Graphic Design",
+      "Photo Editing",
+      "Adobe Photoshop",
+      "Editorial Design",
+      "Images for social networks"
+    ],
+    "motion": "Moving itinerary marker and sun-flower",
+    "gif": "gifs/15-sol-days.gif",
+    "cover": "covers/15-sol-days.jpg"
+  }
+]
