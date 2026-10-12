@@ -46,8 +46,9 @@ A one-page design portfolio for the Workana profile of Carter M. N. It shows the
 
 ## Publishing
 
-- **Vercel:** this folder deploys as is. `.vercelignore` keeps `source/` and `tools/` off the site.
-- **Link previews:** once the site has an address, make `og:image` in `index.html` an absolute URL (`https://<address>/media/og.jpg`) and add `og:url`. WhatsApp and Facebook need absolute URLs to show the preview image.
+- **Live site:** https://carterportfolio-flame.vercel.app/. Vercel builds it from this repo's `main` branch, and every push redeploys it.
+- **What gets published:** `.vercelignore` keeps `source/` and `tools/` off the site.
+- **If the address changes:** update `canonical`, `og:url` and `og:image` in `index.html` to match. WhatsApp and Facebook need absolute URLs to show the preview image.
 
 ## Content rules
 
